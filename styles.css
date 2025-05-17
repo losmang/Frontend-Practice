@@ -101,7 +101,7 @@ h2 {
 }
 
 .about__img--wrapper {
-    width: 40%;
+    width: 25%;
     padding: 0 24px;
 }
 
@@ -109,6 +109,56 @@ img {
     width: 100%;
 }
 
+/* Discord */
 #discord {
+    padding: 48px 0;
     background-color: #cefeff;
+}
+
+.discord__img--wrapper {
+    width: 25%;
+    padding: 0 24px;
+}
+
+/* Contact */
+#contact {
+    padding: 48px 0;
+    background-color: #dce9ff;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+
+/* Footer */
+footer {
+    padding: 48px 0;
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer__links {
+    margin-bottom: 32px;
+}
+
+.footer__link {
+    padding: 0 16px;
 }

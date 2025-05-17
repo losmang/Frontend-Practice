@@ -7,3 +7,31 @@
     font-family: "Roboto", sans-serif;
 }
 
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #cafdff;
+}
+
+a {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.logo {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding-left: 16px;
+}

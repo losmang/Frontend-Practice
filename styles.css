@@ -16,6 +16,32 @@ nav {
     background-color: #cafdff;
 }
 
+header {
+    background-color: #eadcff;
+    height: calc(100vh -70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.subheader {
+    font-size: 36px;
+    margin: 16px 0 24px 0;
+}
+
+button {
+    background-color: #05c7cf;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 a {
     color: black;
     font-size: 24px;
@@ -34,4 +60,55 @@ ul {
 li {
     list-style: none;
     padding-left: 16px;
+}
+
+
+.row {
+    width: 100%;
+    max-width: 1300px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ABOUT */
+#about {
+    padding: 48px 0;
+    background-color: #f8ffdc;
+}
+
+h2 {
+   font-size: 60px;
+   text-align: center; 
+   margin-bottom: 24px;
+}
+
+.section__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__description--wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.section__description--para {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.about__img--wrapper {
+    width: 40%;
+    padding: 0 24px;
+}
+
+img {
+    width: 100%;
+}
+
+#discord {
+    background-color: #cefeff;
 }

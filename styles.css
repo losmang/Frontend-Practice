@@ -141,6 +141,15 @@ input, textarea {
     padding: 6px 12px;
 }
 
+.contact__button-wrapper {
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__button {
+    width: 50%;
+}
+
 
 /* Footer */
 footer {
